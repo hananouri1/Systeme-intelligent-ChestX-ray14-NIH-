@@ -96,9 +96,9 @@ Genre : 100% de données valides
 Structure finale : 112,120 × 13 colonnes
 
 # ÉTAPE 4 : Analyse Exploratoire (EDA)
-4.1 Préparation des Données pour Visualisation
+## 4.1 Préparation des Données pour Visualisation
 python
-## Explosion des labels multiples
+Explosion des labels multiples
 df["label_list"] = df["Finding Labels"].fillna("No Finding").str.split("|")
 df_exploded = df.explode("label_list")
 ## 4.2 Visualisations Créées
