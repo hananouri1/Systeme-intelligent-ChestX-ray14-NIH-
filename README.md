@@ -173,36 +173,6 @@ Défi 4 : Qualité d'Image Variable
 Observation : Résolutions et contrastes variables
 Approche : Prétraitement standardisé
 
-# INSIGHTS CLINIQUES EXTRAPOLES
-1. Prévalence des Pathologies
-Les pathologies pulmonaires obstructives et infectieuses dominent, reflétant la charge mondiale des maladies respiratoires.
-
-2. Complexité Diagnostique
-La forte proportion de diagnostics multiples suggère des comorbidités fréquentes en pneumologie.
-
-3. Démographie des Patients
-La distribution d'âge correspond aux populations à risque pour les pathologies pulmonaires.
-
-RECOMMANDATIONS POUR LA SUITE
-1. Stratégie de Modélisation
-python
-# Approche recommandée :
-1. Model Baseline (ResNet50)
-2. Vision Transformer
-3. Model Ensemble
-4. Explainable AI (Grad-CAM)
-2. Validation Rigoureuse
-Split : Par patient (80/10/10)
-
-Métriques : AUC-ROC par classe, F1-score
-Comparaison : Benchmark avec radiologues
-
-3. Optimisations Techniques
-Mixed precision : Acceleration GPU
-
-Data loader : Optimisé pour grandes images
-
-Early stopping : Prévention overfitting
 
 ## CONCLUSION TECHNIQUE
 Le travail démontre une préparation rigoureuse des données médicales, avec une attention particulière aux spécificités du domaine :
