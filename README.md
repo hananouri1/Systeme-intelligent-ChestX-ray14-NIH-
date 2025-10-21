@@ -174,15 +174,7 @@ Observation : Résolutions et contrastes variables
 Approche : Prétraitement standardisé
 
 
-## CONCLUSION TECHNIQUE
-Le travail démontre une préparation rigoureuse des données médicales, avec une attention particulière aux spécificités du domaine :
 
-Nettoyage robuste des données cliniques
-Analyse exploratoire complète révélant la complexité des données
-Préparation optimisée pour le deep learning
-Identification proactive des défis techniques
-
-La fondation établie permet le développement de modèles de classification robustes pour l'assistance au diagnostic radiologique.
 
 
 
